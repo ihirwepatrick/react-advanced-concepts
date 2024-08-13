@@ -1,7 +1,10 @@
-import React from "react";
-
+import { Button } from "../../../@/components/ui/button";
 function SignupForm() {
-  return <div>SignupForm</div>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 }
 
 export default SignupForm;
